@@ -1,4 +1,9 @@
-#Homework 1 per Linguaggi per il Web - XHTML e CSS
+# Homework 1 per Linguaggi per il Web - XHTML e CSS
+
+## Autore: Lorenzo Petrucci
+
+## Repository di GitHub:
+[LinguaggiWeb-XHTML_CSS su GitHub](https://github.com/lorenzopetrucci1937262/LinguaggiWeb-XHTML_CSS)
 
 ## Funzione del sito
 Il sito ha lo scopo di simulare la presenza web di un cinema multisala. 
@@ -52,8 +57,3 @@ barra uso display: flex con justify-content: space-between e ho visto la luce. R
 
 ### ANTEPRIMA FILM HOME
 La soluzione meno bella e il tallone d'achille è la gestione dell'altezza delle anteprime dei film nella home. Sono costruite per allungarsi con il testo per cui finivano per avere altezze diverse. Visivamente brutto, i tentativi di avvicinarli hanno avuto risultati mediocri. L'unica cosa che si è avvicinata era min-height ma ce n'era sempre uno che la superava e finiva per rompere il footer spostandolo. La soluzione finale è stata height fissa. Con upgrade si punta anche a sistemare.
-
-### DETTAGLI STILISTICI
-La maggior parte del tempo 'perso' è stata spesa dietro alle inezie più insignificanti ma che danno soddisfazione. Infatti insignificanti non lo sono affatto, anzi, è mia opinione che almeno il 50% di cio che ho imparato facendo questo sito viene da esperimenti di stile di questo tipo. box-sizing, box-shadow, overflow: hidden, sono tra le cose 
-che più mi sono divertito a scoprire. Ma border-radius ha portato il mio gradimento per il sito in orbita, usato sia per i div che nei span badge per le uscite e per i tipi di proiezioni. Sicuramente lo verrà per i bottoni per 
-prenotare un posto per le proiezioni.
