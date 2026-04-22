@@ -25,10 +25,12 @@ div.header {
     box-shadow: 2px 5px 10px #000005;
 }
 
-h1 {
+a.h1 {
     font-size: 50px;
     text-align: center;
     text-shadow: 1px 1px 3px #000000;
+    color: #faf3e0;
+    text-decoration: none;
 }
 
 h2 {
@@ -150,11 +152,24 @@ div.schedafilm {
 div.text_scheda {
     background-color: #00072e;
     flex: 1;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 20px;
+}
+
+span.uscita {
+    display: inline-block;
+    margin-left: 10%;
+    padding: 8px;
+    border-radius: 15px;
+    background-color: #faf3e0;
+    color: #222222;
+    font-weight: bold;
 }
 
 div.cartellone {
     flex: 1;
-    align-items: right;
+    background-color: #00072e;
     box-sizing: border-box;
 }
 
