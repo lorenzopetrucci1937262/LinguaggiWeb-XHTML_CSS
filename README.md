@@ -3,7 +3,15 @@
 ## Autore: Lorenzo Petrucci
 
 ## Repository di GitHub:
-[LinguaggiWeb-XHTML_CSS su GitHub](https://github.com/lorenzopetrucci1937262/LinguaggiWeb-XHTML_CSS)
+LinguaggiWeb-XHTML_CSS su GitHub: https://github.com/lorenzopetrucci1937262/LinguaggiWeb-XHTML_CSS
+
+## Tecniche del sito
+Il sito è stato scritto in XHTML 1.0 Strict e CSS, entrambi verificati da W3c.org Validator. Nel CSS è predominante l'uso di 
+classi per definire le differenze tra elementi altrimenti simili, 
+gli id sono utilizzati per essere puntati da link nella stessa pagina.
+La home è costruita da giustapposiione di elementi div e span con 
+posizionamenti flex. La presentazione è formata da tre sezioni con 
+altrettante tabelle e infine il calendario è una sequenza di div affiancata ad una sidebar fissata con sticky.
 
 ## Funzione del sito
 Il sito ha lo scopo di simulare la presenza web di un cinema multisala. 
@@ -56,4 +64,4 @@ incastrare due link ai lati e il titolo al centro in modo accettabile. L'idea al
 barra uso display: flex con justify-content: space-between e ho visto la luce. Rifatto nell'header e tutto a posto.
 
 ### ANTEPRIMA FILM HOME
-La soluzione meno bella e il tallone d'achille è la gestione dell'altezza delle anteprime dei film nella home. Sono costruite per allungarsi con il testo per cui finivano per avere altezze diverse. Visivamente brutto, i tentativi di avvicinarli hanno avuto risultati mediocri. L'unica cosa che si è avvicinata era min-height ma ce n'era sempre uno che la superava e finiva per rompere il footer spostandolo. La soluzione finale è stata height fissa. Con upgrade si punta anche a sistemare.
+La soluzione meno bella e il tallone d'achille è la gestione dell'altezza delle anteprime dei film nella home. Sono costruite per allungarsi con il testo per cui finivano per avere altezze diverse. Visivamente brutto, i tentativi di avvicinarli hanno avuto risultati mediocri. L'unica cosa che si è avvicinata era min-height ma ce n'era sempre uno che la superava e finiva per rompere il footer spostandolo. La soluzione finale è stata passare da float: left a display: flex con align-items: stretch. Inoltre come ulteriore assicurazione al div.footer è stato aggiunto clear: both.
