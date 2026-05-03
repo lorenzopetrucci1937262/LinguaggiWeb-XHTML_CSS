@@ -1,7 +1,7 @@
 # Homework 1 per Linguaggi per il Web - XHTML e CSS
 
 ## Autore: Lorenzo Petrucci
-
+ok
 ## Repository di GitHub:
 LinguaggiWeb-XHTML_CSS su GitHub: https://github.com/lorenzopetrucci1937262/LinguaggiWeb-XHTML_CSS
 
